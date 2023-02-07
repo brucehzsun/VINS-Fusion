@@ -9,7 +9,7 @@ imu_topic: "/imu0"
 image0_topic: "/cam0/image_raw"
 output_path: "~/output/"
 
-cam0_calib: "cam0_mei.yaml"
+cam0_calib: "cam0_pinhole.yaml"
 image_width: 960
 image_height: 1280
    

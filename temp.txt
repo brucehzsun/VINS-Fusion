@@ -1,5 +1,6 @@
 
  source ~/catkin_ws/devel/setup.bash
 roslaunch vins vins_rviz.launch
-rosrun vins vins_node ~/catkin_ws/src/VINS-Fusion/config/euroc/euroc_mono_imu_config.yaml
+rosrun vins vins_node /home/bruce/catkin_ws/src/VINS-Fusion/config/rokid/one_plus_config.yaml
 rosbag play /home/bruce/slam/dataset/slam_test_probuf/rosbag/data.bag
+rosbag play /home/bruce/slam/dataset/mars_data_01/movie.bag
