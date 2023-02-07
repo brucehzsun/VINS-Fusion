@@ -34,7 +34,7 @@ Chessboard::findCorners(bool useOpenCV)
                                           cv::CALIB_CB_ADAPTIVE_THRESH +
                                           cv::CALIB_CB_NORMALIZE_IMAGE +
                                           cv::CALIB_CB_FILTER_QUADS +
-                                          cv::CALIB_CB_FAST_CHEC,
+                                          cv::CALIB_CB_FAST_CHECK,
                                           useOpenCV);
 
     if (mCornersFound)
